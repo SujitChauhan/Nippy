@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Playfair+Display');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
