@@ -9,13 +9,79 @@ body{
     font-family: 'Playfair Display', serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Montserrat', sans-serif;
+    color: #1d1d1d;
 }
 
 main{
+    height: 100vh;
     display: grid;
     grid-template-columns: 5% auto 5%;
+    grid-template-rows: 10vh auto;
+    background-image: url(./images/bg.png);
+    text-align: center;
 }
 
 main>*{
     grid-column: 2/3;
+}
+
+header{
+    align-self: center;
+    display: flex;
+}
+
+header .logo{
+    display: block;
+    height: 25.14px;
+    width: 151.49px;
+}
+
+ul{
+    margin-left: auto;
+    list-style: none;
+}
+
+li{
+    display: inline;
+}
+
+ul li a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #1d1d1d;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.main-content{
+    align-self: center;
+}
+
+.main-content h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    font-weight: 300;
+    color: #1d1d1d;
+}
+
+.main-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #1d1d1d;
+}
+
+.main-content a{
+    display: block;
+    margin: 0 auto;
+    margin-top: 24px;
+    width: 190px;
+    height: 52px;
+    text-align: center;
+    line-height: 52px;
+    background-color: #1005FF;
+    border-radius: 100px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #ffffff;
 }
