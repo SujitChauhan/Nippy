@@ -10,3 +10,12 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
+
+main{
+    display: grid;
+    grid-template-columns: 5% auto 5%;
+}
+
+main>*{
+    grid-column: 2/3;
+}
