@@ -300,6 +300,10 @@ input[type=button]{
     align-content: center;
 }
 
+.work-for img{
+    justify-self: center;
+}
+
 .work-for >img:nth-child(1){
     grid-column: 2/3;
 }
